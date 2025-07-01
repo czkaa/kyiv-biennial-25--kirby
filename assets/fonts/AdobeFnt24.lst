@@ -1,0 +1,123 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/AdobeFnt24.lst
+FileLength:2988
+FileModTime:772444672
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CyGrotesk-KeyBold
+FamilyName:Cy Grotesk
+StyleName:Key Bold
+MenuName:Cy Grotesk Key
+StyleBits:2
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Cy Grotesk Key Bold
+WritingScript:Roman
+OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:134112
+FileModTime:767178613
+NameArray:0,Mac,4,Cy Grotesk Key Bold
+NameArray:0,Win,1,Cy Grotesk Key
+NameArray:0,Win,16,Cy Grotesk
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CyGrotesk-KeyMedium
+FamilyName:Cy Grotesk
+StyleName:Key Medium
+MenuName:Cy Grotesk Key Medium
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Cy Grotesk Key Medium
+WritingScript:Roman
+OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyMedium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:143368
+FileModTime:767178386
+NameArray:0,Mac,4,Cy Grotesk Key Medium
+NameArray:0,Win,1,Cy Grotesk Key Medium
+NameArray:0,Win,16,Cy Grotesk
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CyGrotesk-KeyRegular
+FamilyName:Cy Grotesk
+StyleName:Key Regular
+MenuName:Cy Grotesk Key
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Cy Grotesk Key Regular
+WritingScript:Roman
+OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyRegular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:133428
+FileModTime:767178351
+NameArray:0,Mac,4,Cy Grotesk Key Regular
+NameArray:0,Win,1,Cy Grotesk Key
+NameArray:0,Win,16,Cy Grotesk
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CyGrotesk-KeyThin
+FamilyName:Cy Grotesk
+StyleName:Key Thin
+MenuName:Cy Grotesk Key Thin
+StyleBits:0
+WeightClass:100
+WidthClass:5
+AngleClass:0
+FullName:Cy Grotesk Key Thin
+WritingScript:Roman
+OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyThin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:132236
+FileModTime:767178089
+NameArray:0,Mac,4,Cy Grotesk Key Thin
+NameArray:0,Win,1,Cy Grotesk Key Thin
+NameArray:0,Win,16,Cy Grotesk
+%EndFont
+
