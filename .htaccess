@@ -1,14 +1,7 @@
-# Enable URL rewriting
 RewriteEngine On
 
-# If the requested filename is not a directory
-RewriteCond %{REQUEST_FILENAME} !-d
+# Redirect index.html to root
+RewriteRule ^index\.html$ / [R=301,L]
 
-# If the requested filename is not a file
-RewriteCond %{REQUEST_FILENAME} !-f
-
-# Rewrite URLs ending with nothing (e.g., /about) to /about/index.html
-RewriteRule ^(.+)/$ $1/index.html [L]
-
-# Rewrite the root URL to index.html
-DirectoryIndex index.html
+# Clean URLs
+RewriteRule ^ua/?$ ua.html [L]
