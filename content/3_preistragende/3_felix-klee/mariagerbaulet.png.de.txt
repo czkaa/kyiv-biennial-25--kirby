@@ -1,0 +1,13 @@
+Caption: Test Caption 2
+
+----
+
+Alt: 
+
+----
+
+Uuid: zb3t0b7j4ciaPNWQ
+
+----
+
+Template: image

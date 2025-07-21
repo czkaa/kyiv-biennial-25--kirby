@@ -1,0 +1,9 @@
+Title: Impressum
+
+----
+
+Text: [{"content":{"text":"27. Bundeswettbewerb des Bundesministeriums für Bildung und Forschung 2025 gefördert vom Bundesministerium für Bildung und Forschung www.bmbf.de Organisatorischer Träger Deutsches Studierendenwerk e.V. Monbijouplatz 11, 10178 Berlin www.studierendenwerke.de \n\nDurchführung der Ausstellung Kunst- und Ausstellungshalle der Bundesrepublik Deutschland GmbH Museumsmeile Bonn, Helmut-Kohl-Allee 4 53113 Bonn www.bundeskunsthalle.de \n\nKonzeption und Gestaltung Katalog, Plakat und Webseite Josephine Dishoni, Constanze Kohlhaas, Constanze Lorenz betreut von Prof. David Liebermann, Prof. Jana Reddemann (Intermediale Gestaltung) und Prof. Andrea Tinnes (Schrift und Typografie) Burg Giebichenstein Kunsthochschule Halle Umsetzung der Webseite Sabine Musterfrau","indent":""},"id":"4e6650a4-e36f-48e4-bd21-c4b5b2d64b16","isHidden":false,"type":"customtext"},{"content":{"logos":["file://Xnuf4CPuL1QWbIpa","file://uUOBnSKzd6Ai5kNz","file://eek9nvVQaKz5EFxp"]},"id":"73b6c66c-d33a-41d2-97f1-d7a47b47935f","isHidden":false,"type":"customlogos"}]
+
+----
+
+Uuid: dy5oISOvxUGbbATZ

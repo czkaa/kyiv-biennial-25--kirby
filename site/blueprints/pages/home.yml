@@ -1,0 +1,9 @@
+title: home
+
+status:
+  draft: false
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false

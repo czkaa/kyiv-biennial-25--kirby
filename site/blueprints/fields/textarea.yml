@@ -1,0 +1,10 @@
+type: textarea
+label: Text
+buttons:
+  - bold
+  - italic
+  - link
+links:
+  types:
+    - url
+    - email

@@ -1,0 +1,21 @@
+Title: Archiv
+
+----
+
+Layout: [{"attrs":{"a":"","text":""},"columns":[{"blocks":[{"content":{"text":""},"id":"d079a33c-9b67-4eaf-8fb9-962123032514","isHidden":false,"type":"text"}],"id":"d9b237c7-bc71-4b75-9031-9792dec7edc7","width":"1/1"}],"id":"a541593b-c0a0-4bc9-bf51-a6bab815d28f"},{"attrs":{"a":"","text":"[{\"content\":{\"text\":\"fewfewfw\",\"indent\":\"\"},\"id\":\"1b397cff-6d2f-4fa7-9bf4-2bd0e240a9cd\",\"isHidden\":false,\"type\":\"customtext\"}]"},"columns":[{"blocks":[{"content":{"text":""},"id":"184cad46-2168-43f3-b0ad-3ff600cfaf5a","isHidden":false,"type":"text"}],"id":"33f22290-6181-45c5-b740-75bc4f9868a8","width":"1/1"}],"id":"3ec848fe-6239-4eb7-a32c-d8da7d5c7768"}]
+
+----
+
+Text: [{"content":{"text":"Die Medien, die den Wettbewerb begleiten – Katalog, Webseite, Plakat – werden jedes Mal von einer der teilnahmeberechtigten Hochschulen gestaltet. Unter den folgenden Links sind die Internetauftritte der letzten drei Wettbewerbsausgaben archiviert.","indent":""},"id":"2444018a-9a98-4464-b629-d20b399d510c","isHidden":false,"type":"customtext"}]
+
+----
+
+Uuid: 7wg2WuuWSAZR2wO7
+
+----
+
+Links:
+
+-
+  link: ''
+  _id: 4dd9ebfd-afe3-4620-b20e-c2b791b03131

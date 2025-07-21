@@ -1,0 +1,46 @@
+/* site/plugins/text-block/index.css */
+
+.k-block-text-preview {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.k-block-text-preview:empty::after {
+    content: "Text content...";
+    color: var(--color-text-light);
+}
+
+/* Make h2 tags visible */
+.k-block-text-preview h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    display: block;
+}
+
+/* Make strong tags visible */
+.k-block-text-preview strong,
+.k-block-text-preview b {
+    font-weight: bold;
+}
+
+/* Make emphasis tags visible */
+.k-block-text-preview em,
+.k-block-text-preview i {
+    font-style: italic;
+}
+
+/* Make links visible */
+.k-block-text-preview a {
+    color: black;
+    font-weight: bold;
+}
+
+.k-block-text-preview a:hover {
+    color: black;
+    text-decoration: underline;
+}

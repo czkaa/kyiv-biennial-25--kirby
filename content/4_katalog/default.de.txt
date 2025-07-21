@@ -1,0 +1,13 @@
+Title: Katalog
+
+----
+
+Blocks: [{"content":{"text":"Katalog","level":"large","indent":""},"id":"86ffcbe4-d8f8-46e1-97fa-b34175403195","isHidden":false,"type":"customheading"},{"content":{"text":"Zu jedem Wettbewerb erscheint ein Katalog, der das künstlerische Schaffen der Preistragenden dokumentiert. Der Katalog sowie weitere Wettbewerbsmedien werden von einer der teilnehmenden Kunsthochschulen gestaltet. Beim 27. Bundeswettbewerb übernimmt dies die Burg Giebichenstein Kunsthochschule Halle.","indent":""},"id":"b2600ebe-3e7f-4124-860e-83fdce20d7d3","isHidden":false,"type":"customtext"}]
+
+----
+
+Text: [{"content":{"text":"Zu jedem Wettbewerb erscheint ein Katalog, der das künstlerische Schaffen der Preistragenden dokumentiert. Der Katalog sowie weitere Wettbewerbsmedien werden von einer der teilnehmenden Kunsthochschulen gestaltet. Beim 27. Bundeswettbewerb übernimmt dies die Burg Giebichenstein Kunsthochschule Halle.","indent":"small"},"id":"29dc2964-3817-4637-b85e-ea38e0ac13b8","isHidden":false,"type":"customtext"},{"content":{"text":"Der Katalog erscheint zur Ausstellungseröffnung am 6. November 2025 und kann dann bis zum Ende der Ausstellung am 4. Januar 2026 in der Buchhandlung Walther König an der Bundeskunsthalle erworben werden. Darüber hinaus können Sie den Katalog beim Deutschen Studierendenwerk bestellen, ebenso wie die Kataloge vorheriger Wettbewerbsdurchgänge. \n\nKontakt: (link: mailto:kultur@studentenwerke.de text: kultur@studentenwerke.de)","indent":""},"id":"f2ac8a2a-fbbb-42d4-8f9a-6d289770f008","isHidden":false,"type":"customtext"}]
+
+----
+
+Uuid: 7wg2WuuWSAZR2wO7

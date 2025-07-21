@@ -4,120 +4,62 @@
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/AdobeFnt24.lst
-FileLength:2988
-FileModTime:772444672
+OutlineFileName:/Users/karen/Documents/projekte/BUNDESKUNSTPREIS/250225_BPK_WebsiteOrdner/Document fonts/AdobeFnt24.lst
+FileLength:1517
+FileModTime:764890394
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Type1
-FontName:CyGrotesk-KeyBold
-FamilyName:Cy Grotesk
-StyleName:Key Bold
-MenuName:Cy Grotesk Key
-StyleBits:2
-WeightClass:600
-WidthClass:5
-AngleClass:0
-FullName:Cy Grotesk Key Bold
-WritingScript:Roman
-OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyBold.otf
-DataFormat:sfntData
-UsesStandardEncoding:yes
-isCFF:yes
-hasSVG:no
-hasSBIX:no
-hasCOLR:no
-VariableFontType:NonVariableFont
-FileLength:134112
-FileModTime:767178613
-NameArray:0,Mac,4,Cy Grotesk Key Bold
-NameArray:0,Win,1,Cy Grotesk Key
-NameArray:0,Win,16,Cy Grotesk
-%EndFont
-
-%BeginFont
-Handler:DirectoryHandler
-FontType:Type1
-FontName:CyGrotesk-KeyMedium
-FamilyName:Cy Grotesk
-StyleName:Key Medium
-MenuName:Cy Grotesk Key Medium
+FontName:Cursor-Apple
+FamilyName:Cursor
+StyleName:Apple
+MenuName:Cursor Apple
 StyleBits:0
 WeightClass:400
 WidthClass:5
 AngleClass:0
-FullName:Cy Grotesk Key Medium
+FullName:Cursor Apple
 WritingScript:Roman
-OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyMedium.otf
+OutlineFileName:/Users/karen/Documents/projekte/BUNDESKUNSTPREIS/250225_BPK_WebsiteOrdner/Document fonts/Cursor-Apple.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
-hasSVG:no
+hasSVG:yes
 hasSBIX:no
-hasCOLR:no
+hasCOLR:yes
 VariableFontType:NonVariableFont
-FileLength:143368
-FileModTime:767178386
-NameArray:0,Mac,4,Cy Grotesk Key Medium
-NameArray:0,Win,1,Cy Grotesk Key Medium
-NameArray:0,Win,16,Cy Grotesk
+FileLength:75744
+FileModTime:760799613
+NameArray:0,Mac,4,Cursor Apple
+NameArray:0,Win,1,Cursor Apple
+NameArray:0,Win,16,Cursor
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
-FontType:Type1
-FontName:CyGrotesk-KeyRegular
-FamilyName:Cy Grotesk
-StyleName:Key Regular
-MenuName:Cy Grotesk Key
+FontType:TrueType
+FontName:SeasonVFTRIAL-SansLight
+FamilyName:Season VF TRIAL
+StyleName:Sans Light
+MenuName:Season VF TRIAL Sans Light
+FamilyPrefix:SeasonVFTRIAL
 StyleBits:0
 WeightClass:300
 WidthClass:5
 AngleClass:0
-FullName:Cy Grotesk Key Regular
+FullName:Season VF TRIAL Sans Light
 WritingScript:Roman
-OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyRegular.otf
+OutlineFileName:/Users/karen/Documents/projekte/BUNDESKUNSTPREIS/250225_BPK_WebsiteOrdner/Document fonts/SeasonVFTRIALVF.ttf
 DataFormat:sfntData
-UsesStandardEncoding:yes
-isCFF:yes
 hasSVG:no
 hasSBIX:no
 hasCOLR:no
-VariableFontType:NonVariableFont
-FileLength:133428
-FileModTime:767178351
-NameArray:0,Mac,4,Cy Grotesk Key Regular
-NameArray:0,Win,1,Cy Grotesk Key
-NameArray:0,Win,16,Cy Grotesk
-%EndFont
-
-%BeginFont
-Handler:DirectoryHandler
-FontType:Type1
-FontName:CyGrotesk-KeyThin
-FamilyName:Cy Grotesk
-StyleName:Key Thin
-MenuName:Cy Grotesk Key Thin
-StyleBits:0
-WeightClass:100
-WidthClass:5
-AngleClass:0
-FullName:Cy Grotesk Key Thin
-WritingScript:Roman
-OutlineFileName:/Users/karen/Downloads/Landing-page-mockup-Karen Folder/Document fonts/CyGrotesk-KeyThin.otf
-DataFormat:sfntData
-UsesStandardEncoding:yes
-isCFF:yes
-hasSVG:no
-hasSBIX:no
-hasCOLR:no
-VariableFontType:NonVariableFont
-FileLength:132236
-FileModTime:767178089
-NameArray:0,Mac,4,Cy Grotesk Key Thin
-NameArray:0,Win,1,Cy Grotesk Key Thin
-NameArray:0,Win,16,Cy Grotesk
+VariableFontType:TrueTypeVariableFont
+FileLength:469664
+FileModTime:751397730
+NameArray:0,Win,1,Season VF TRIAL Sans Light
+NameArray:0,Win,16,Season VF TRIAL
 %EndFont
 

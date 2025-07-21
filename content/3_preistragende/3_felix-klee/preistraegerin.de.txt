@@ -1,0 +1,33 @@
+Title: Felix Klee
+
+----
+
+Gallery:
+
+- 'file://4ol9tImlCuvIGuXV'
+- 'file://zb3t0b7j4ciaPNWQ'
+- 'file://RVRXCwwQGStvos6z'
+
+----
+
+Portrait: - 'file://adVdJ5HToLHK2X2r'
+
+----
+
+Bio: [{"content":{"text":"Biografie","level":"large","indent":""},"id":"2af91939-cb71-4d63-b105-261ab60f843f","isHidden":false,"type":"customheading"},{"content":{"list":[{"year":"2010","text":"Lorem Ipsum"}]},"id":"96536083-01ce-4a0e-8eba-efeb5000c141","isHidden":false,"type":"customlist"}]
+
+----
+
+Judging: [{"content":{"text":"Jurierung","level":"large","indent":""},"id":"5d2a1e79-cfef-44f4-975b-48da36cee0e9","isHidden":false,"type":"customheading"},{"content":{"text":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","indent":""},"id":"fdc2eeab-1466-4789-827d-fa2f40f86159","isHidden":false,"type":"customtext"}]
+
+----
+
+Exhibitions: [{"content":{"text":"Ausstellungen","level":"large","indent":"small"},"id":"635addd5-374d-414c-8d6e-71ad406f5574","isHidden":false,"type":"customheading"},{"content":{"list":[{"year":"2010","text":"Lorem Ipsum"},{"year":"2020","text":"Lorem Ipsum"}]},"id":"0e6354a8-ad70-4fc7-8f6d-57e347e980e1","isHidden":false,"type":"customlist"}]
+
+----
+
+Prizes: [{"content":{"text":"Preise","level":"large","indent":"small"},"id":"79ff541d-169a-4bf6-99cd-3dea1ddf46e5","isHidden":false,"type":"customheading"},{"content":{"list":[{"year":"2011","text":"Lorem Ipsum"}]},"id":"b2cf6c57-d682-41ed-8e28-a6ffa5d5ca4d","isHidden":false,"type":"customlist"}]
+
+----
+
+Uuid: ozeJ5n5hKvw4R5FT

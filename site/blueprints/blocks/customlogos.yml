@@ -1,0 +1,6 @@
+name: Logos
+
+fields:
+  logos:
+    type: files
+    layout: cards

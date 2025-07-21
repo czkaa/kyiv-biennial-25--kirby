@@ -1,0 +1,30 @@
+Title: Nominierte
+
+----
+
+Blocks: [{"content":{"text":"Nominierte","level":"large","indent":""},"id":"a319b191-4d10-4319-8748-616dbaac5560","isHidden":false,"type":"customheading"},{"content":{"text":"Alle 25 in der Rektorenkonferenz der deutschen Kunsthochschulen vertretenen Akademien, Hochschulen und Universitäten nehmen am Wettbewerb teil und nominieren jeweils zwei ihrer Studierenden oder Studierendenteams. Aus den Nominierten wählt eine unabhängige Fachjury anhand von Portfolios bis zu acht Preistragende aus.","indent":""},"id":"46ca927e-feb0-42f2-9133-2b807a8f2921","isHidden":false,"type":"customtext"},{"content":{"text":"**Jonas Kuck, Alungoo Nyamsuren**\nUniversität der Künste Berlin\n**Federico Torres De los Rios, Gabriela Lesmes Lópes**\nWeißensee Kunsthochschule Berlin","indent":""},"id":"8ba29867-8cdf-42bc-91fe-d6fde8f72fcf","isHidden":false,"type":"customtext"},{"content":{"text":"**Justus Linnekugel, Delia Naghavi Alhosini**\nHochschule für Bildende Künste Braunschweig\n**Eghbal Joudi, Gocha Mosiashvili**\nHochschule für Künste Bremen","indent":"small"},"id":"54d37c7c-f0d6-41cb-b183-be67c4e81004","isHidden":false,"type":"customtext"}]
+
+----
+
+Text: [{"content":{"text":"Alle 25 in der Rektorenkonferenz der deutschen Kunsthochschulen vertretenen\nAkademien, Hochschulen und Universitäten nehmen am Wettbewerb teil\nund nominieren jeweils zwei ihrer Studierenden oder Studierendenteams. Aus\nden Nominierten wählt eine unabhängige Fachjury anhand von Portfolios bis\nzu acht Preistragende aus.","indent":""},"id":"f861f614-9697-4729-aca7-e08eb221f792","isHidden":false,"type":"customtext"},{"content":{"text":"**Jonas Kuck, Alungoo Nyamsuren**\nUniversität der Künste Berlin\n**Federico Torres De los Rios, Gabriela Lesmes Lópes**\nWeißensee Kunsthochschule Berlin\n**Justus Linnekugel, Delia Naghavi Alhosini**\nHochschule für Bildende Künste Braunschweig\n**Eghbal Joudi, Gocha Mosiashvili**\nHochschule für Künste Bremen","indent":"small"},"id":"a562717b-5e7e-4bc7-9aa9-cb977f2da372","isHidden":false,"type":"customtext"},{"content":{"text":"**Martin Bertelmann, Anika Anna Schröck**\nHochschule für Bildende Künste Dresden\n**Valerie Fiona Feldhaus, Sophie Schweighart**\nKunstakademie Düsseldorf\n**Rendina Cattani, Arnaud Ferron**\nStaatliche Hochschule für Bildende Künste\n– Städelschule, Frankfurt am Main","indent":"medium"},"id":"35ac7310-3d5c-4ce9-b496-c13067a51b38","isHidden":false,"type":"customtext"}]
+
+----
+
+Nominees:
+
+-
+  name: 'Jonas Kuck, Alungoo Nyamsuren'
+  university: 'Universität der Künste Berlin'
+-
+  name: 'Federico Torres De los Rios, Gabriela Lesmes Lópes '
+  university: 'Weißensee Kunsthochschule Berlin'
+-
+  name: 'Justus Linnekugel, Delia Naghavi Alhosini'
+  university: 'Hochschule für Bildende Künste Braunschweig'
+-
+  name: 'Eghbal Joudi, Gocha Mosiashvili'
+  university: 'Hochschule für Künste Bremen'
+
+----
+
+Uuid: wPUm9XlymaQSNvrj

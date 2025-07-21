@@ -1,0 +1,8 @@
+type: select
+label: Level
+options:
+  small: kleine Überschrift
+  medium: Mittlere Überschrift
+  large: Große Überschrift
+default: none
+width: 1/3

@@ -1,0 +1,22 @@
+# site/blueprints/fields/seo.yml
+type: group
+fields:
+  seotitle:
+    label: SEO Title
+    type: text
+    help: Leave empty to use the page title
+  seodescription:
+    label: Meta Description
+    type: textarea
+    buttons: false
+    maxlength: 160
+    help: Recommended length 120-160 characters
+  seokeywords:
+    label: Meta Keywords
+    type: tags
+    help: Separate keywords with commas
+  seoimage:
+    label: Social Media Image
+    type: files
+    max: 1
+    help: Recommended size 1200x630px

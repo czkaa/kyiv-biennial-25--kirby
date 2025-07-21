@@ -1,0 +1,14 @@
+title: Default
+
+status:
+  draft: false
+  listed: true
+
+options:
+  changeSlug: true
+  delete: false
+
+fields:
+  blocks:
+    extends: fields/blocks
+    label: Blöcke

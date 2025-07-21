@@ -1,0 +1,24 @@
+title: Info
+status:
+  draft: false
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+columns:
+  - width: 1/1
+    sections:
+      listed:
+        extends: sections/info
+        label: Veröffentlichte Unterseiten
+        status: listed
+        size: small
+        layout: table
+  - width: 1/1
+    sections:
+      drafts:
+        extends: sections/info
+        label: Unveröffentlichte Unterseiten
+        status: draft

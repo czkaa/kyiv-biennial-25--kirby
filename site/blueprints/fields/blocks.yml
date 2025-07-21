@@ -1,0 +1,7 @@
+type: blocks
+fieldsets:
+  customtext: blocks/customtext
+  customheading: blocks/customheading
+  customlogos: blocks/customlogos
+  custompreistragende: blocks/custompreistragende
+  customlist: blocks/customlist

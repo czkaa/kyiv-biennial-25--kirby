@@ -1,0 +1,7 @@
+type: select
+label: Indentation
+options:
+  small: Small Indent
+  medium: Medium Indent
+default: none
+width: 1/3

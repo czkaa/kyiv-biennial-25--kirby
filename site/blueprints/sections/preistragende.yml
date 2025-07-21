@@ -1,0 +1,10 @@
+type: pages
+label: Preistragende
+parent: kirby.page("preistragende")
+template: preistraegerin
+empty: Noch keine Unterseiten
+sortBy: date desc
+image:
+  query: page.gallery.toFiles.first
+  cover: true
+  ratio: 3/2

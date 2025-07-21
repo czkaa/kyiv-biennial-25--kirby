@@ -1,0 +1,20 @@
+/* site/plugins/text-block/index.css */
+
+.k-block-type-customlist {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    cursor: pointer;
+    font-family: serif;
+}
+
+
+.k-block-type-customlist span:first-child {
+    width: 8rem;
+    display: inline-block;
+}
+
+strong, b {
+    font-family: sans-serif;
+}

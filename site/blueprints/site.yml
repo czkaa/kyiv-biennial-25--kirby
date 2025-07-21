@@ -1,0 +1,29 @@
+tabs:
+  content:
+    sections:
+      pages:
+        type: pages
+        create: false
+        layout: table
+        label: Header-Seiten
+        image: false
+        status: listed
+        width: 1/3
+        templates:
+          - default
+          - preistragende
+
+      footer:
+        type: pages
+        create: false
+        width: 1/3
+        label: Footer-Seiten
+        query: site.children.filterBy("template", "info").children
+        layout: table
+        image: false
+        templates:
+          - default
+  seo:
+    fields:
+      seo:
+        extends: fields/seo

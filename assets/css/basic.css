@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'SeasonVF';
+    src: url('../fonts/SeasonVFTRIALVF.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, * {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'SeasonVF';
+    font-variation-settings: "wght" 500, "SERF" 0;
+}

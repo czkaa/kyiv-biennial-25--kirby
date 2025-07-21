@@ -1,0 +1,8 @@
+name: Überschrift
+
+fields:
+  text:
+    type: text
+    help: Mit '&ampshy;' können bedinge Umbrüche bei langen Wörtern gesetzt werden.
+  level: fields/level
+  indent: fields/indent

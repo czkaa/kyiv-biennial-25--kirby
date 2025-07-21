@@ -1,0 +1,39 @@
+title: Preisträger:in
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+
+fields:
+  gallery:
+    type: files
+    query: page.images
+    layout: cards
+    width: 3/4
+    translate: false
+    uploads:
+      template: image
+  portrait:
+    type: files
+    query: page.images
+    layout: cards
+    width: 1/4
+    size: small
+    max: 1
+    translate: false
+  bio:
+    extends: fields/blocks
+    label: Biografie
+  judging:
+    extends: fields/blocks
+    label: Judging
+  exhibitions:
+    extends: fields/blocks
+    label: Ausstellungen
+  prizes:
+    extends: fields/blocks
+    label: Preise

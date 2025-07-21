@@ -1,0 +1,13 @@
+Title: Datenschutz
+
+----
+
+Text: [{"content":{"text":"Verantwortlich für diese Seite ist das Deutsche Studierendenwerk. Unsere ausführliche Datenschutzerklärung, in der wir Sie allgemein über die Verarbeitung Ihrer personenbezogenen Daten informieren, soweit sie überhaupt beim Besuch unserer Seite anfallen, sowie einen Überblick über Ihre Rechte aus den Datenschutzgesetzen finden Sie hier.","indent":""},"id":"1da2cbbf-6933-4c2e-b366-7ce0e52faae0","isHidden":false,"type":"customtext"}]
+
+----
+
+Logos: []
+
+----
+
+Uuid: dy5oISOvxUGbbATZ

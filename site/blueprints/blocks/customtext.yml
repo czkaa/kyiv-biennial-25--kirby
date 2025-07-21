@@ -1,0 +1,5 @@
+name: Text
+
+fields:
+  text: fields/textarea
+  indent: fields/indent

@@ -1,0 +1,13 @@
+name: Liste
+
+fields:
+  list:
+    type: structure
+    fields:
+      year:
+        label: Jahr
+        type: text
+        width: 1/4
+      text:
+        extends: fields/textarea
+        width: 3/4

@@ -1,0 +1,7 @@
+type: pages
+label: Info-Seiten
+parent: kirby.page("info")
+template: default
+empty: Noch keine Unterseiten
+sortBy: date desc
+image: false
