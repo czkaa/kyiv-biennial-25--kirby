@@ -2,8 +2,8 @@ type: textarea
 label: Text
 buttons:
   - bold
-  - italic
   - link
+toolbar: false
 links:
   types:
     - url

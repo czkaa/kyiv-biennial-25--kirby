@@ -1,0 +1,6 @@
+name: Abstand
+
+fields:
+  gap:
+    type: info
+    text: "Dieser Block erzeugt eine Leerzeile."

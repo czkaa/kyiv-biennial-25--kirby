@@ -1,4 +1,4 @@
-title: Preisträger:in
+title: Venue
 
 status:
   draft: true
@@ -7,6 +7,7 @@ status:
 options:
   changeSlug: false
   delete: false
+  preview: false
 
 fields:
   gallery:
@@ -25,15 +26,8 @@ fields:
     size: small
     max: 1
     translate: false
-  bio:
+    uploads:
+      template: portrait
+  blocks:
     extends: fields/blocks
-    label: Biografie
-  judging:
-    extends: fields/blocks
-    label: Judging
-  exhibitions:
-    extends: fields/blocks
-    label: Ausstellungen
-  prizes:
-    extends: fields/blocks
-    label: Preise
+    label: Blöcke

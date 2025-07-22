@@ -2,21 +2,23 @@
 type: group
 fields:
   seotitle:
-    label: SEO Title
+    label: SEO-Titel
     type: text
-    help: Leave empty to use the page title
+    translate: true
   seodescription:
-    label: Meta Description
+    label: SEO-Beschreibung
     type: textarea
     buttons: false
     maxlength: 160
-    help: Recommended length 120-160 characters
+    help: Empfohlene Länge 120-160 Zeichen
+    translate: true
   seokeywords:
-    label: Meta Keywords
+    label: SEO-Keywords
     type: tags
-    help: Separate keywords with commas
+    translate: true
   seoimage:
-    label: Social Media Image
+    label: Social Media Bild
     type: files
     max: 1
-    help: Recommended size 1200x630px
+    help: Empfohlene Größe 1200x630px
+    translate: false

@@ -1,4 +1,4 @@
-title: Info
+title: Participants
 status:
   draft: false
   listed: true
@@ -6,20 +6,25 @@ status:
 options:
   changeSlug: false
   delete: false
+  changeTitle: false
   preview: false
 
 columns:
   - width: 1/1
+    fields:
+      blocks: fields/blocks
+
+  - width: 1/1
     sections:
       listed:
-        extends: sections/info
-        label: Veröffentlichte Unterseiten
+        extends: sections/participants
+        label: Published Subpages
         status: listed
         size: small
         layout: table
   - width: 1/1
     sections:
       drafts:
-        extends: sections/info
-        label: Unveröffentlichte Unterseiten
+        extends: sections/participants
+        label: Unpublished Subpages
         status: draft

@@ -1,8 +1,8 @@
 type: select
 label: Level
 options:
-  small: kleine Überschrift
-  medium: Mittlere Überschrift
-  large: Große Überschrift
-default: none
+  h4: H4
+  h3: H3
+  h2: H2
+default: h3
 width: 1/3

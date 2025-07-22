@@ -4,10 +4,11 @@ panel.plugin("your-project/customheading", {
   blocks: {
     customheading: {
       computed: {
-        indentStyle() {
+        style() {
           // Get the indent value from the block
           const indent = this.content.indent || "none";
-          const level = this.content.level || "small";
+          const size = this.content.size || "small";
+          const isRight = this.content.isright;
 
           // Define padding based on indent value
           let padding = "1rem";
@@ -19,17 +20,23 @@ panel.plugin("your-project/customheading", {
 
           let fontSize = "1rem";
           let fontFamily = "sans-serif";
-          if (level === "small") {
-          } else if (level === "medium") {
+          if (size === "small") {
+          } else if (size === "medium") {
             fontSize = "2rem";
-          } else if (level === "large") {
+          } else if (size === "large") {
             fontSize = "3rem";
+          }
+
+          let textAlign = "left";
+          if (isRight) {
+            textAlign = "right";
           }
 
           return {
             paddingLeft: padding,
             fontSize: fontSize,
             fontFamily: fontFamily,
+            textAlign: textAlign,
           };
         },
         formattedText() {
@@ -69,7 +76,7 @@ panel.plugin("your-project/customheading", {
       template: `
       <div @click="open">
         <div class="k-block-text-container">
-          <div class="k-block-text-preview" :style="indentStyle" v-html="formattedText">
+          <div class="k-block-text-preview" :style="style" v-html="formattedText">
           </div>
         </div>
       </div>

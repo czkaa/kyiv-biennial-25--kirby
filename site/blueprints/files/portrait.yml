@@ -28,23 +28,3 @@ columns:
           alt:
             label: Alternative Text
             type: text
-            width: 1/2
-          hasshowmore:
-            label: Ausklapptext?
-            type: toggle
-            default: false
-            width: 1/2
-            text:
-              - Nein
-              - Ja
-  - width: 1/1
-    fields:
-      showmore:
-        extends: fields/textarea
-        label: Ausklapptext
-        help: "Wird nur angezeigt, wenn 'Ausklapptext?' aktiviert ist."
-        size: small
-        required: false
-        width: 1/2
-        when:
-          hasshowmore: true

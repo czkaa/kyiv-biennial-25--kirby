@@ -1,0 +1,10 @@
+type: pages
+label: Event
+parent: kirby.page("program")
+template: event
+empty: No events yet
+
+image:
+  query: page.gallery.toFiles.first
+  cover: true
+  ratio: 3/2

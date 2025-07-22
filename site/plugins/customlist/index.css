@@ -10,11 +10,16 @@
 }
 
 
-.k-block-type-customlist span:first-child {
-    width: 8rem;
-    display: inline-block;
-}
-
 strong, b {
     font-family: sans-serif;
+}
+
+.k-block-type-customlist .number  {
+    font-variant-numeric: tabular-nums;
+    font-family: sans-serif;
+    width: 10rem;
+    display: inline-block;
+}
+.k-block-type-customlist .number span {
+    font-variant-numeric:normal;
 }

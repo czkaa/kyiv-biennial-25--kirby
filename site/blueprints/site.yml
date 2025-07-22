@@ -1,6 +1,14 @@
 tabs:
   content:
     sections:
+      info:
+        type: fields
+        fields:
+          info:
+            label: Info
+            type: info
+            text: |
+              Wenn Inhalte aktualisiert werden, können diese über den Button "Seite deployen" rechts oben veröffentlicht werden. Nach ca. einer Minute sind die aktualisierten Inhalte dann auf der Webseite sichtbar.
       pages:
         type: pages
         create: false

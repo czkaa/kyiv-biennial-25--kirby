@@ -7,12 +7,15 @@ return [
     'locale' => [
         'LC_ALL' => 'de_DE'
     ],
-    'name' => 'Deutsch',
+    'name' => 'de',
     'translations' => [
-        'bio' => 'Biografie',
-        'exhibitions' => 'Ausstellung',
+        'opening' => 'Eröffnung',
+        'hours' => 'Öffnungszeiten',
+        'address' => 'Adresse',
         'judging' => 'Jurierung',
-        'prizes' => 'Preise'
+        'exhibitions' => 'Ausstellungen',
+        'prizes' => 'Preise',
+        'biography' => 'Biografie'
     ],
     'url' => NULL
 ];

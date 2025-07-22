@@ -2,7 +2,12 @@ name: Überschrift
 
 fields:
   text:
-    type: text
-    help: Mit '&ampshy;' können bedinge Umbrüche bei langen Wörtern gesetzt werden.
+    extends: fields/textarea
+    buttons: false
+    markdown: false
+    help: Mit '&ampshy;' können bedinge Umbrüche bei langen Wörtern gesetzt werden. Das Level 'h2' erzeugt einen zusätzlichen Abstand nach oben.
   level: fields/level
+
+  size: fields/size
+
   indent: fields/indent

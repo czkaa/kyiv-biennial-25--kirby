@@ -7,3 +7,4 @@ status:
 options:
   changeSlug: false
   delete: false
+  preview: false

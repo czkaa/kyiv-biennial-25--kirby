@@ -1,4 +1,4 @@
-title: Preistragende
+title: Venues
 status:
   draft: false
   listed: true
@@ -6,6 +6,8 @@ status:
 options:
   changeSlug: false
   delete: false
+  changeTitle: false
+  preview: false
 
 columns:
   - width: 1/1
@@ -15,14 +17,14 @@ columns:
   - width: 1/1
     sections:
       listed:
-        extends: sections/preistragende
-        label: Veröffentlichte Unterseiten
+        extends: sections/venues
+        label: Published Subpages
         status: listed
         size: small
         layout: table
   - width: 1/1
     sections:
       drafts:
-        extends: sections/preistragende
-        label: Unveröffentlichte Unterseiten
+        extends: sections/venues
+        label: Unpublished Subpages
         status: draft

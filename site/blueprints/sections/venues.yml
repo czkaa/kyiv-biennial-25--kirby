@@ -1,0 +1,10 @@
+type: pages
+label: Venue
+parent: kirby.page("venues")
+template: venue
+empty: No venue yet
+
+image:
+  query: page.gallery.toFiles.first
+  cover: true
+  ratio: 3/2

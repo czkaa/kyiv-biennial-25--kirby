@@ -5,3 +5,4 @@ fieldsets:
   customlogos: blocks/customlogos
   custompreistragende: blocks/custompreistragende
   customlist: blocks/customlist
+  customgap: blocks/customgap

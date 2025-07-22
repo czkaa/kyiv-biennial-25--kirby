@@ -1,0 +1,10 @@
+type: pages
+label: Participant
+parent: kirby.page("participants")
+template: participant
+empty: No participants yet
+
+image:
+  query: page.gallery.toFiles.first
+  cover: true
+  ratio: 3/2

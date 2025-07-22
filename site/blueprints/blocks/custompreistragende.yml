@@ -3,4 +3,4 @@ name: Unterseiten Preistragende
 fields:
   info:
     type: info
-    text: "Die Übersicht der Preistragenden wird automatisch generiert."
+    text: "Die Übersicht der Preistragenden wird automatisch generiert und in diesem Block eingefügt."

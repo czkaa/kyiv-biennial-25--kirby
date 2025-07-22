@@ -1,0 +1,8 @@
+type: select
+label: Größe
+options:
+  small: kleine Überschrift
+  medium: Mittlere Überschrift
+  large: Große Überschrift
+default: small
+width: 1/3

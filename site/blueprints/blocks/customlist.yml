@@ -6,8 +6,12 @@ fields:
     fields:
       year:
         label: Jahr
-        type: text
+        type: textarea
+        buttons:
+          - highlight
         width: 1/4
+        help: Text, der keine Nummer ist, sollte in '<span></span>' eingebettet werden, damit er nicht als Versalziffer mit größerem Buchstaben-Abstand dargestellt wird. Das geht auch über den Button.
+
       text:
         extends: fields/textarea
         width: 3/4
