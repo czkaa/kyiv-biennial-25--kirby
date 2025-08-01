@@ -7,7 +7,7 @@ status:
 options:
   changeSlug: false
   delete: false
-  changeTitle: false
+  changeTitle: true
   preview: false
 
 fields:

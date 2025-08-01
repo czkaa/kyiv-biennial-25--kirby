@@ -1,37 +1,37 @@
 tabs:
   content:
     sections:
-      info:
-        type: fields
-        fields:
-          info:
-            label: Info
-            type: info
-            text: |
-              Wenn Inhalte aktualisiert werden, können diese über den Button "Seite deployen" rechts oben veröffentlicht werden. Nach ca. einer Minute sind die aktualisierten Inhalte dann auf der Webseite sichtbar.
+      # info:
+      #   type: fields
+      #   fields:
+      #     info:
+      #       label: Info
+      #       type: info
+      #       text: |
+      #         Wenn Inhalte aktualisiert werden, können diese über den Button "Seite deployen" rechts oben veröffentlicht werden. Nach ca. einer Minute sind die aktualisierten Inhalte dann auf der Webseite sichtbar.
       pages:
         type: pages
-        create: false
         layout: table
-        label: Header-Seiten
+        label: Menu-Pages
         image: false
-        status: listed
         width: 1/3
+        create:
+          - participants
         templates:
-          - default
-          - preistragende
+          - venues
+          - program
+          - about
+          - home
+          - participants
 
       footer:
         type: pages
-        create: false
+        create: text
         width: 1/3
-        label: Footer-Seiten
-        query: site.children.filterBy("template", "info").children
+        label: Footer-Pages
         layout: table
         image: false
         templates:
-          - default
-  seo:
-    fields:
-      seo:
-        extends: fields/seo
+          - text
+
+  seo: sections/seo

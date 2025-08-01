@@ -11,10 +11,6 @@ options:
 
 columns:
   - width: 1/1
-    fields:
-      blocks: fields/blocks
-
-  - width: 1/1
     sections:
       listed:
         extends: sections/program

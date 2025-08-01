@@ -1,2 +1,0 @@
-6cff9576dc20b84776f2dcb2a66de6c6d64af01c7b25ce54324cc7b8c06f9df3
-a:7:{s:9:"startTime";i:1753204121;s:10:"expiryTime";i:1753211321;s:8:"duration";i:7200;s:7:"timeout";i:1800;s:12:"lastActivity";i:1753204121;s:9:"renewable";b:1;s:4:"data";a:2:{s:10:"panel.path";s:4:"site";s:10:"kirby.csrf";s:64:"5929fdc3a763887edfbba151d7833379fb454835e811ccec5a3708da1b372a9f";}}

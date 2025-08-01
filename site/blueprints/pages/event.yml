@@ -9,25 +9,57 @@ options:
   delete: false
   preview: false
 
-fields:
-  gallery:
-    type: files
-    query: page.images
-    layout: cards
-    width: 3/4
-    translate: false
-    uploads:
-      template: image
-  portrait:
-    type: files
-    query: page.images
-    layout: cards
-    width: 1/4
-    size: small
-    max: 1
-    translate: false
-    uploads:
-      template: portrait
-  blocks:
-    extends: fields/blocks
-    label: Blöcke
+title: Venue
+
+status:
+  draft: true
+  listed: true
+
+options:
+  changeSlug: false
+  delete: false
+  preview: false
+
+columns:
+  - width: 1/2
+    fields:
+      subtitle:
+        label: Subtitle
+        type: text
+
+      display_date:
+        label: Display Date
+        type: text
+        placeholder: "3 Oct 2025 – 18 Jan 2026"
+        help: Display format for dates
+
+      start_date:
+        label: Start Date
+        type: date
+        width: 1/2
+
+      end_date:
+        label: End Date
+        type: date
+        width: 1/2
+  - width: 1/2
+    fields:
+      blocks: fields/blocks
+     
+      deposit:
+        label: Mystetskyi Arsenal deposit
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+      
+
+      curators:
+        label: Curators
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+      

@@ -9,25 +9,22 @@ options:
   delete: false
   preview: false
 
-fields:
-  gallery:
-    type: files
-    query: page.images
-    layout: cards
-    width: 3/4
-    translate: false
-    uploads:
-      template: image
-  portrait:
-    type: files
-    query: page.images
-    layout: cards
-    width: 1/4
-    size: small
-    max: 1
-    translate: false
-    uploads:
-      template: portrait
-  blocks:
-    extends: fields/blocks
-    label: Blöcke
+columns:
+  - width: 1/2
+    fields:
+      address:
+        label: Address
+        type: text
+      hours:
+        label: Opening Hours
+        type: text
+        placeholder: "Wednesday to Sunday, 12:00–19:00"
+      image:
+        label: Venue Image
+        type: files
+        max: 1
+        layout: cards
+  - width: 1/2
+    fields:
+      blocks:
+        extends: fields/blocks

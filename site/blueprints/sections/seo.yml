@@ -1,0 +1,28 @@
+# site/blueprints/fields/seo.yml
+type: section
+columns:
+  - width: 1/4
+    fields:
+      seoimage:
+        label: Social Media Image
+        type: files
+        max: 1
+        help: Recommended Size 1200x630px
+        translate: false
+  - width: 3/4
+    fields:
+      seotitle:
+        label: SEO-Title
+        type: text
+        translate: true
+      seodescription:
+        label: SEO-Description
+        type: textarea
+        buttons: false
+        maxlength: 160
+        help: Recommended length 120-160 characters
+        translate: true
+      seokeywords:
+        label: SEO-Keywords
+        type: tags
+        translate: true

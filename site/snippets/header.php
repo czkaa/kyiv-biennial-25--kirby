@@ -1,26 +1,38 @@
-<header class="fixed top-0 w-full h-frame-h pointer-events-none z-[200]" x-data>
-  <div class="w-full h-full relative">
-    <a 
-      href="/"
-      hx-get="/"
-      hx-target="main" 
-      hx-select="main"
-      hx-swap="outerHTML"
-      :hx-trigger="$store.site.isGap ? 'click delay:1000ms' : 'click'"
-      hx-push-url="true"
-      @click="$store.site.isGap && $store.site.setIsGap(false)"      
-      class="absolute transition-all duration-intro linear z-[100] top-0 left-0 pointer-events-auto"
-      >
-        <img src="/assets/icons/logotype-tl.svg" class="h-[4.6rem]">
-    </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <?php snippet('seo'); ?>
 
-    <div
-      class="absolute transition-all duration-intro linear z-[100] bottom-0 right-0"
-     >
-        <img src="/assets/icons/logotype-br.svg" class="h-[4.6rem]">
-    </div>
-    
-    <?php snippet('nav') ?>
-  </div>
-</header>
+  <?= css([
+    'assets/css/basic.css',
+    'assets/css/bundle.css',
+    'assets/css/index.css',
+    '@auto'
+  ]) ?>
+
+  <!-- Load Alpine.js first, then your stores -->
+  <script defer src="https://unpkg.com/alpinejs@3.12.0/dist/cdn.min.js"></script>
+  
+  <!-- Then load HTMX -->
+  <script defer src="https://unpkg.com/htmx.org@2.0.4" integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+" crossorigin="anonymous"></script>
+  
+  <!-- Then load your custom scripts that depend on Alpine and HTMX -->
+  <?= js([
+    'assets/js/store.js', 
+    'assets/js/index.js',
+    'assets/js/links.js',
+    '@auto'
+  ]) ?>
+
+  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+</head>
+
+<body>
+
+  <?php snippet('languageToggle') ?>
+
+
+
 

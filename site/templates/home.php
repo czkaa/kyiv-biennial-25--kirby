@@ -1,25 +1,23 @@
-<?php
-/** @var \Kirby\Cms\App $kirby */
-/** @var \Kirby\Cms\Site $site */
-include_once(__DIR__ . "/blocks/_blocks.php");
+<?php snippet('header') ?>
 
+<main class="home">
+  <div class="container">
+    <header class="home-header">
+      <h1><?= $page->title()->html() ?></h1>
+    </header>
+    
+    <div class="home-content">
+      <?php if ($site->children()->listed()->isNotEmpty()): ?>
+        <ul class="home-links">
+          <?php foreach ($site->children()->listed() as $child): ?>
+            <li>
+              <a href="<?= $child->url() ?>"><?= $child->title()->html() ?></a>
+            </li>
+          <?php endforeach ?>
+          </ult>
+      <?php endif ?>
+    </div>
+  </div>
+</main>
 
-// Compile all sections
-$data = [
-  'meta' => [
-    'title' => $site->title()->value(),
-    'description' => $site->description()->value(),
-    'uri' => $page->uri(),
-    'template' => $page->template()->name()
-  ],
-  'sections' => $site->children()->listed()->filterBy('template', '!=', 'home')->filterBy('template', '!=', 'info')->map(function ($child) {
-    return [
-      'uri' => $child->uri(),
-      'slug' => $child->slug(),
-      'title' => $child->title()->value(),
-      'blocks' => $child->blocks()->toBlocks()->isEmpty() ? null : $child->blocks()->toBlocks()->map(fn($block) => block($block))->values()
-    ];
-  })->values(),
-];
-
-echo \Kirby\Data\Json::encode($data);
+<?php snippet('footer') ?>

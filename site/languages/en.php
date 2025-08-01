@@ -2,20 +2,14 @@
 
 return [
     'code' => 'en',
-    'default' => false,
+    'default' => true,
     'direction' => 'ltr',
     'locale' => [
         'LC_ALL' => 'en_US'
     ],
-    'name' => 'en',
+    'name' => 'English',
+    'url'     => '/',
     'translations' => [
-        'address' => 'address',
-        'hours' => 'hours',
-        'opening' => 'opening',
-        'judging' => 'judging',
-        'exhibitions' => 'exhibitions',
-        'prizes' => 'prizes',
-        'biography' => 'biography'
+
     ],
-    'url' => NULL
 ];

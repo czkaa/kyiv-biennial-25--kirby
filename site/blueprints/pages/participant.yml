@@ -30,4 +30,4 @@ fields:
       template: portrait
   blocks:
     extends: fields/blocks
-    label: Blöcke
+    label: Blocks

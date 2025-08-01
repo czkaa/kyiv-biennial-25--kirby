@@ -1,4 +1,4 @@
-title: home
+title: Home
 
 status:
   draft: false
@@ -7,4 +7,12 @@ status:
 options:
   changeSlug: false
   delete: false
+  changeTitle: false
   preview: false
+
+fields:
+  info:
+    label: false
+    type: info
+    text: |
+      The content for this page is generated automatically from the subpages.

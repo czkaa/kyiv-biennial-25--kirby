@@ -1,4 +1,5 @@
 title: Venues
+
 status:
   draft: false
   listed: true
@@ -10,10 +11,6 @@ options:
   preview: false
 
 columns:
-  - width: 1/1
-    fields:
-      blocks: fields/blocks
-
   - width: 1/1
     sections:
       listed:
